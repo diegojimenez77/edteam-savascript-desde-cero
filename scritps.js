@@ -65,3 +65,34 @@ console.log(typeof {
 //Nulo o null, hace referencia a valores que no existen
 console.log(typeof null); // prints object, dato curioso aunque no es una coleccion de datos JavaScript define a null como un objeto
 //commet for commit 
+
+/**
+ * 2.4 Declaracion y Asignacion
+ */
+console.log(typeof undefined); //prints undefined
+
+/**
+ * Variables
+ * Hata ECMA Script 5 las variables se declaraban var, var alumno, declaracion de variable
+ * var daba muchos conflictos, porque se tenia que utilizar var para todo, eso hacia que las variables no fuera constantes o de otros tipos, se generaban errores
+ * ahora se usa let, let alumno
+ */
+
+// Declaracion, se reserva un espacio en memoria RAM para guardar un valor.
+var alumno; // en este caso no tienen ningun valor
+console.log(alumno);// prints undefined
+
+//Asignacion de variable
+alumno = "Beto Quiroga";
+console.log(alumno);// prints 'Beto Quiroga'
+
+let alumno2 = "Diego"; // declaracion y asignacion en una misma linea
+console.log(alumno2);//prints 'Diego' ya se le asigno un valor
+
+// Reasignacion, es darle un nuevo valor a las variables
+alumno2 = "Alvaro Felipe"; // se reasigna el valor de la variable alumno2
+console.log(alumno2); // prints Alvaro Felipe
+
+alumno2 = 12345; // estamos cambiando el tipo de dato a number
+console.log(alumno2);
+console.log(typeof alumno2);// pints number
