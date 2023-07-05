@@ -129,5 +129,5 @@ apellido = "Hernandez" // reasignacion
 const NOMBRE_EMPRESA = "EDteam"
 const SITIO_WEB = "https://ed.team"
 
-NOMBRE_EMPRESA = "EDteam SAC"
+NOMBRE_EMPRESA = "EDteam SAC"// imprime un error que no se puede cambiar el valor de una constante
 
