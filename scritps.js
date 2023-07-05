@@ -96,3 +96,19 @@ console.log(alumno2); // prints Alvaro Felipe
 alumno2 = 12345; // estamos cambiando el tipo de dato a number
 console.log(alumno2);
 console.log(typeof alumno2);// pints number
+
+/**
+ * 2.5 Asignacion por referencia
+ */
+
+let profesor = "Alexys"
+let alumno3 = profesor;
+
+profesor = "Alvaro"
+
+console.log(profesor);
+console.log(alumno3);// prints Alexys, mantiene el valor del profesor en el momento antes de la reasignacion 
+
+alumno3 = "Beto";
+
+console.log(alumno3);// prints Beto ya que se reasigno el valor.
