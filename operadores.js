@@ -114,3 +114,81 @@ let p = "Alberto"
 
 let resultado7 = o !== p
 console.log(resultado7)
+
+/**
+ * 3.5 Operadores de comparacion aritmeticos
+ * solo funcionan para comparar numeros.
+ */
+
+// mayor que >
+// menor que <
+// mayor o igual que >=
+// menor o igual que <=
+
+let q = 20
+let r = 10
+
+console.log(q > r)// prints true
+console.log(q < r)// prints false
+
+console.log(q <= r)// prints false
+console.log(q >= r)// prints true
+
+
+/**
+ * 3.6 Operadores logicos
+ * 
+ */
+
+// AND (&&)
+// OT (||)
+// sirven para concatenar dos comparaciones o validaciones
+
+let s = 10
+let t = 20
+let u = 30
+
+// saber si t es mayor que s y mayor que u
+
+let resp = t > s && t > u
+console.log("let resp = t > s && t > u", resp)// prints false. se tienen que cumplir las dos condiciones para que sea verdadero.
+
+// Saber si t es mayor que s o mayor que u
+let resp2 = t > s || t > u
+console.log("let resp2 = t > s || t > u", resp2)// prints true, con una de las dos condiciones que sea verdadera imprime true.
+
+/**
+ * 3.7 Operadores unarios, solo dependen de ellos mismos para incrementar o decrementar ++ o --
+ * 
+ */
+
+let v = 10
+v++ // estamos diciendo que se incremente en 1
+console.log(v)//prints 11
+
+let w = 10
+w--// estamos diciendo que se decremente 1
+console.log(w) // prints 9
+
+
+// Operadores ternarios, ternario es de 3 pasos
+//1 comparacion ?
+//2 si la comparacion es verdadera :
+//3 si la comparacion es false
+
+let x = 5
+let y = 8
+
+let z = y > x ? "Es verdadero" : "Es falso"
+console.log(z)//prints "Es verdadero"
+
+/**
+ * 3.8 Type cohercion, capacidad de convertir un tipo de dato en otro tipo de dato.
+ * 
+ */
+
+let aa = true
+let bb = true
+
+let res = aa + bb
+console.log(res) // prints 2 porque piensa que estas haciendo una operacion numerica y cambia el boolean a number true = 1 false = 0
