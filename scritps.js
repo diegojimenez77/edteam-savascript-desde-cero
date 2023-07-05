@@ -64,3 +64,4 @@ console.log(typeof {
 
 //Nulo o null, hace referencia a valores que no existen
 console.log(typeof null); // prints object, dato curioso aunque no es una coleccion de datos JavaScript define a null como un objeto
+//commet for commit 
