@@ -43,3 +43,21 @@ a -= b //en un solo paso hace una suma y una asignacion esto quiere decir que su
 // a **= b potencia con reasignacion.
 console.log(a ** b);
 
+/**
+ * 3.3 Operadores de Concatenacion
+ * El operador + sirve para hacer operaciones con textos
+ */
+
+let nombre2 = "Beto"
+let apellido2 = "Quiroga"
+
+let nombreCompleto = nombre2 + " " +apellido2
+
+console.log(nombreCompleto)
+
+// Template Strings, la ventaja que nos da es que se pueden escribir dentro variables y operaciones. 
+// Yo las conocia anteriormente como template literals
+let nickname = `Mi nombre es: ${nombre2} y mi apellido ${apellido2}`
+let nickname2 = `Mi nombre es: ${20>10} y mi apellido ${apellido2}`
+console.log(nickname)
+console.log(nickname2)
