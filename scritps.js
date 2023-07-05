@@ -1,3 +1,6 @@
+// Comentarios 
+//2. Sintaxis 2.1 Comentarios
+
 // Esto es un comentario de una linea
 
 /*
@@ -20,3 +23,17 @@ o tambien buscando por medio de su correo electronico
 
 console.log("Saludos desde VS Code");
 alert("Saludos desde alerta");
+
+/** 
+ * 2. Sintaxis 2.2 Tipos de Datos
+ * Tipos de datos
+ */
+
+//Number
+
+console.log(typeof 50); // prints number
+console.log(typeof 'a'); // prints string
+console.log(typeof ' '); // prints string
+console.log(typeof false); // prints boolean
+console.log(typeof true); // prints boolean
+console.log(typeof "false"); // prints string , *** ojo false y true son palabras reservadas, si se ponen entre comillas las considera como string.
