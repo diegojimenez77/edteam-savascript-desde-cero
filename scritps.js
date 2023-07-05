@@ -112,3 +112,22 @@ console.log(alumno3);// prints Alexys, mantiene el valor del profesor en el mome
 alumno3 = "Beto";
 
 console.log(alumno3);// prints Beto ya que se reasigno el valor.
+
+/**
+ * 2.6 Constantes
+ * las variables nos permiten la declaracion, la asignacion y reasignacion
+ */
+
+let nombre // delcaracion
+
+nombre = "Beto" // asignacion
+
+let apellido = "Quiroga" // delcaracion y asignacion en una linea
+apellido = "Hernandez" // reasignacion
+
+// en las constantes se guardan datos que no van a cambiar, las constantes por buena practica se escriben con mayusculas y snake Case NOMBRE_EMPRESA
+const NOMBRE_EMPRESA = "EDteam"
+const SITIO_WEB = "https://ed.team"
+
+NOMBRE_EMPRESA = "EDteam SAC"
+
